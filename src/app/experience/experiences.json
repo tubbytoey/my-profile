@@ -1,0 +1,58 @@
+[
+  {
+    "role": "Full Stack Developer",
+    "company": "True e-logistics Co., Ltd. (Mar 2018 - Present)",
+    "responsibilities": [
+      {
+        "text": "Developed graphql composition for 4pl(Fourth-party logistics provider) project with qraphql and rabbitMQ"
+      },
+      {
+        "text": "Developed and maintain C2C(speed-d at 7-11) project with React, Node.js, rabbitMQ, sequelizejs"
+      },
+      {
+        "text": "Developed and maintain sendit (logistics management) with React, Node.js, sequelizejs"
+      },
+      {
+        "text": "Developed blackbox-data service (location storage) with Node.js, mongo"
+      },
+      {
+        "text": "Developed request-approve service with Node.js, mongo, rabbitMQ"
+      }
+    ]
+  },
+  {
+    "role": "Software Engineer",
+    "company": "THiNKNET Co., Ltd. (Jul 2016 - Feb 2018)",
+    "responsibilities": [
+      {
+        "text": "Developed php project (JobThai.com)",
+        "link": "JobThai.com",
+        "to": "https://www.jobthai.com/"
+      },
+      { "text": "Developed new job searching project with React and Node.js" },
+      {
+        "text": "Developed new THiNKNET internal accounting project with React, GraphQL, Node.js"
+      }
+    ]
+  },
+  {
+    "role": "Speaker at SNLP2016",
+    "company": "The Eleventh International Symposium on Natural Language Processing. (Feb 2016)",
+    "responsibilities": [
+      {
+        "text": "Speaker in title \"Aggregation and Faceted Search support for Ontology Application Management Framework\" (ref: https://goo.gl/MbvRzd)",
+        "link": "https://goo.gl/MbvRzd",
+        "to": "https://goo.gl/MbvRzd"
+      }
+    ]
+  },
+  {
+    "role": "Student Trainee",
+    "company": "National Electronics and Computer Technology Center (NECTEC). (Jul 2015 - Dec 2015)",
+    "responsibilities": [
+      {
+        "text": "Developed searching system support for Ontology Application Management Framework at Language and Semantic Technology (LST) labotary"
+      }
+    ]
+  }
+]

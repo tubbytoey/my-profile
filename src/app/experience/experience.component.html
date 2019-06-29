@@ -1,0 +1,12 @@
+<div>Experience</div>
+<ul>
+  <li *ngFor="let experience of experiences">
+    <div>{{ experience.role }}</div>
+    <div>{{ experience.company }}</div>
+    <ul>
+      <li *ngFor="let reposibility of experience.responsibilities">
+        <div [innerHTML]="renderLinkOrPlainText(reposibility)"></div>
+      </li>
+    </ul>
+  </li>
+</ul>

@@ -1,0 +1,29 @@
+[
+  {
+    "mode": "Technical Skills",
+    "skills": [
+      { "name": "React", "icon": "" },
+      { "name": "Redux", "icon": "" },
+      { "name": "GraphQL", "icon": "" },
+      { "name": "NodeJS", "icon": "" },
+      { "name": "HTML", "icon": "" },
+      { "name": "CSS", "icon": "" },
+      { "name": "Antd", "icon": "" },
+      { "name": "Mongo", "icon": "" },
+      { "name": "Mongoose", "icon": "" },
+      { "name": "MySQL", "icon": "" },
+      { "name": "Sequelize", "icon": "" },
+      { "name": "Jest", "icon": "" },
+      { "name": "Enzyme", "icon": "" },
+      { "name": "Robot Framework", "icon": "" },
+      { "name": "Git", "icon": "" }
+    ]
+  },
+  {
+    "mode": "Language Skills",
+    "skills": [
+      { "name": "English", "icon": "", "level": "Fair" },
+      { "name": "Thai", "icon": "", "level": "Native" }
+    ]
+  }
+]
