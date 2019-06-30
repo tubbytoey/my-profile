@@ -18,7 +18,7 @@
   justify-content: space-around;
 }
 .qoute {
-max-width: 600px;
+  max-width: 600px;
   text-align: center;
   font-size: 16px;
   font-style: italic;
@@ -56,9 +56,10 @@ max-width: 600px;
 }
 
 .skills-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
+  display: flex;
+  flex-wrap: wrap;
   padding: 10px;
+  justify-content: space-around;
 }
 
 .language-container {
@@ -74,11 +75,11 @@ max-width: 600px;
 
 .skill {
   text-align: center;
+  margin-bottom: 5px;
 }
 
 .skill-img {
-  display: block;
-  margin: auto;
+  margin: 0px 30px 0px 30px;
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -96,7 +97,6 @@ max-width: 600px;
     width: 100px;
   }
 }
-
 
 .contact-item {
   display: flex;
@@ -117,7 +117,7 @@ max-width: 600px;
   text-align: center;
   color: white;
   font-weight: bold;
-  animation: fadein 4s;
+  animation: fadein 6s;
   height: 100vh;
   font-size: 40px;
   margin-top: 200px;
