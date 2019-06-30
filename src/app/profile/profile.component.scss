@@ -1,0 +1,86 @@
+.name-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .firstname {
+    // margin-left: 0px;
+    margin-left: 0px;
+    position: relative;
+    animation-duration: 4s;
+    animation-name: first;
+    img {
+      width: 500px;
+    }
+  }
+  .lastname {
+    // margin-left: 0px;
+    margin-left: 0px;
+    position: relative;
+    animation-duration: 4s;
+    animation-name: last;
+    img {
+      width: 500px;
+    }
+  }
+}
+
+@keyframes first {
+  0% {
+    margin-left: 0px;
+  }
+  25% {
+    margin-left: calc(100vh - 350px);
+  }
+}
+
+
+@keyframes last {
+  0% {
+    margin-left: 100vh;
+  }
+  25% {
+    margin-left: calc(100vh - 350px);
+  }
+}
+
+.first-block {
+  display: flex;
+  align-items: center;
+  .avatar {
+    background-color: red;
+    animation: profile-Img 4s infinite;
+    border-radius: 50%;
+    border: 6px solid #1d2951;
+    box-shadow: inset 0 0 0 2px black;
+    img {
+      padding: 6px 6px 0px 6px;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+    }
+  }
+  .qoute {
+    margin-left: 10px;
+    font-size: 24px;
+    font-style: italic;
+  }
+}
+
+.second-block {
+  display: flex;
+  margin-top: 24px;
+  .basic-info {
+
+  }
+
+  .education {
+    margin-left: 10px;
+  }
+}
+
+@keyframes profile-Img {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: red;}
+}

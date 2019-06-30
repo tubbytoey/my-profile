@@ -2,28 +2,28 @@
   {
     "mode": "Technical Skills",
     "skills": [
-      { "name": "React", "icon": "" },
-      { "name": "Redux", "icon": "" },
-      { "name": "GraphQL", "icon": "" },
-      { "name": "NodeJS", "icon": "" },
-      { "name": "HTML", "icon": "" },
-      { "name": "CSS", "icon": "" },
-      { "name": "Antd", "icon": "" },
-      { "name": "Mongo", "icon": "" },
-      { "name": "Mongoose", "icon": "" },
-      { "name": "MySQL", "icon": "" },
-      { "name": "Sequelize", "icon": "" },
-      { "name": "Jest", "icon": "" },
-      { "name": "Enzyme", "icon": "" },
-      { "name": "Robot Framework", "icon": "" },
-      { "name": "Git", "icon": "" }
+      { "name": "React", "icon": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" },
+      { "name": "Redux", "icon": "https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png" },
+      { "name": "GraphQL", "icon": "https://miro.medium.com/max/480/1*nP2C50GK4_-ly_R_mq3juQ.png" },
+      { "name": "NodeJS", "icon": "https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_960_720.png" },
+      { "name": "HTML", "icon": "https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png" },
+      { "name": "CSS", "icon": "https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-512.png" },
+      { "name": "Antd", "icon": "https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg" },
+      { "name": "Mongo", "icon": "https://dwglogo.com/wp-content/uploads/2017/12/MongoDB_logo_01.png" },
+      { "name": "Mongoose", "icon": "https://cdn2.hubspot.net/hub/4008838/hubfs/mogoose-logo.png?width=1597&height=1760&name=mogoose-logo.png" },
+      { "name": "MySQL", "icon": "https://pngimg.com/uploads/mysql/mysql_PNG35.png" },
+      { "name": "Sequelize", "icon": "https://cdn.freebiesupply.com/logos/large/2x/sequelize-logo-png-transparent.png" },
+      { "name": "Jest", "icon": "https://i.pinimg.com/originals/45/0c/11/450c112d0d32c82bd89919ff36cb79ca.png" },
+      { "name": "Enzyme", "icon": "https://cdn-images-1.medium.com/max/1600/1*pu9U8EYL3KGrgvapyp1pSg.png" },
+      { "name": "RobotFW", "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Robot-framework-logo.png/250px-Robot-framework-logo.png" },
+      { "name": "Git", "icon": "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" }
     ]
   },
   {
     "mode": "Language Skills",
     "skills": [
-      { "name": "English", "icon": "", "level": "Fair" },
-      { "name": "Thai", "icon": "", "level": "Native" }
+      { "name": "English", "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1280px-Flag_of_the_United_Kingdom.svg.png", "level": "Fair" },
+      { "name": "Thai", "icon": "https://cdn.countryflags.com/thumbs/thailand/flag-400.png", "level": "Native" }
     ]
   }
 ]

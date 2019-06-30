@@ -6,11 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./profile.component.scss']
 })
 export class ProfileComponent implements OnInit {
-  img = '';
+  profileImg = '';
+  firstnameImg = '';
+  lastnameImg = '';
   constructor() { }
 
   ngOnInit() {
-    this.img = 'assets/image/avatar.jpg';
+    this.profileImg = 'assets/image/avatar.jpg';
+    this.firstnameImg = 'assets/image/nichanan.png';
+    this.lastnameImg = 'assets/image/poovanavirote.png';
 
   }
 
