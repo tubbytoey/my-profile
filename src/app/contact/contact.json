@@ -1,18 +1,27 @@
 [
   {
     "type": "address",
-    "value": "310/45 lumpini town place Pahonyothin30 Pahonyothin Road ChatuChak Bangkok 10900"
+    "value": "310/45 lumpini town place Pahonyothin30 Pahonyothin Road ChatuChak Bangkok 10900",
+    "icon": "assets/image/maps-and-flags.png"
   },
   {
     "type": "email",
-    "value": "tubby.toey@hotmail.com"
+    "value": "tubby.toey@hotmail.com",
+    "icon": "assets/image/letter.png"
   },
   {
     "type": "phone",
-    "value": "+660816748006"
+    "value": "+660816748006",
+    "icon": "assets/image/mobile-phone.png"
   },
   {
     "type": "linkedin",
-    "link": "https://www.linkedin.com/in/nichanan-poovanavirote-162852153/"
+    "link": "https://www.linkedin.com/in/nichanan-poovanavirote-162852153/",
+    "icon": "assets/image/linkedin.png"
+  },
+  {
+    "type": "github",
+    "link": "https://github.com/tubbytoey",
+    "icon": "assets/image/github.png"
   }
 ]

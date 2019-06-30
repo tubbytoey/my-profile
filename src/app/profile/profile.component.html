@@ -1,26 +1,91 @@
-<div class="name-block">
-  <div class="firstname"><img src="{{ firstnameImg }}" /></div>
-  <div class="lastname"><img src="{{ lastnameImg }}" /></div>
-</div>
-<div class="first-block">
-  <div class="avatar"><img src="{{ profileImg }}" /></div>
-  <div class="qoute">
-    "3-years experience in web development, a very hard-working person and
-    highly dedicated to work. love to code with javascript, familiar with Agile
-    and Lean methodology"
+<div class="container">
+  <div class="parallax-name">
+    <div class="title">NICHANAN POOVANAVIROTE</div>
   </div>
-</div>
-<div class="second-block">
-  <div class="basic-info">
-    <div>Nationality : Thai</div>
-    <div>Date of Birth : 7 Nov 1993</div>
-  </div>
-  <div class="education">
-    <div>Education</div>
-    <div>
-      - Kasetseat University, Bangkok  Bachelor Degree in Computer Science |
-      2015
+
+  <div class="layout profile">
+    <!-- <div class="qoute-container"> -->
+      <div class="qoute">
+        "3-years experience in web development, a very hard-working person and
+        highly dedicated to work. love to code with javascript, familiar with
+        Agile and Lean methodology"
+      </div>
+    <!-- </div> -->
+    <div class="profile-avatar"><img src="{{ profileImg }}" /></div>
+
+    <div class="basic-info-block">
+      <div>Education :</div>
+      <ul>
+        <li>
+          Kasetseat University, Bangkok  Bachelor Degree in Computer Science |
+          2015
+        </li>
+        <li>Nakhonsawan School, Nakhonsawan  Math-Sci | 2011</li>
+      </ul>
+      <div>Nationality : Thai</div>
+      <div>Date of Birth : 7 Nov 1993</div>
+      <div>Hobbies : cooking, drawing</div>
     </div>
-    <div>- Nakhonsawan School, Nakhonsawan  Math-Sci | 2011</div>
+  </div>
+
+  <div class="parallax-experience">
+    <div class="title bigger">EXPERIENCE</div>
+  </div>
+  <div class="layout experience">
+    <ul>
+      <li *ngFor="let experience of experiences">
+        <div class="role">{{ experience.role }}</div>
+        <div class="company">{{ experience.company }}</div>
+        <ul>
+          <li *ngFor="let reposibility of experience.responsibilities">
+            <div [innerHTML]="renderLinkOrPlainText(reposibility)"></div>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="parallax-skill">
+    <div class="title bigger">SKILL</div>
+    >
+  </div>
+
+  <div class="layout skill">
+    <div class="skill-group" *ngFor="let obj of skills">
+      <div>{{ obj.mode }}</div>
+      <div
+        [ngClass]="
+          obj.mode === 'Language Skills'
+            ? 'language-container'
+            : 'skills-container'
+        "
+      >
+        <div class="skill" *ngFor="let s of obj.skills">
+          <div *ngIf="obj.mode !== 'Language Skills'">{{ s.name }}</div>
+          <div
+            [ngClass]="
+              obj.mode === 'Language Skills' ? 'language-img' : 'skill-img'
+            "
+          >
+            <img [src]="s.icon" />
+          </div>
+          <div class="language-level" *ngIf="obj.mode === 'Language Skills'">
+            {{ s.level }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="parallax-contact"><div class="title bigger">CONTACT</div></div>
+
+  <div class="layout contact">
+    <div class="contact-item" *ngFor="let con of contact">
+      <div class="contact-icon"><img [src]="con.icon" /></div>
+      <div class="contact-value" *ngIf="con.value">{{ con.value }}</div>
+      <div class="contact-value" *ngIf="!con.value">
+        <a [href]="con.link" [target]="_blank">{{ con.link }}</a>
+      </div>
+    </div>
   </div>
 </div>
