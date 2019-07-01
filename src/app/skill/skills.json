@@ -3,6 +3,7 @@
     "mode": "Technical Skills",
     "skills": [
       { "name": "React", "icon": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" },
+      { "name": "Angular", "icon": "https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg" },
       { "name": "Redux", "icon": "https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png" },
       { "name": "GraphQL", "icon": "https://miro.medium.com/max/480/1*nP2C50GK4_-ly_R_mq3juQ.png" },
       { "name": "NodeJS", "icon": "https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_960_720.png" },
